@@ -1,0 +1,90 @@
+#my thead th {
+  background-color: #009879;
+  color: #ffffff;
+  font-weight: bold;
+  
+  text-align: left;
+}
+
+
+#my  th,
+#my td {
+    padding: 12px 15px;
+
+   
+}
+
+#my {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+
+}
+
+#my tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+#my tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+#my tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+
+
+ .d-flex {
+    display:flex;
+}
+
+.col-auto {
+   
+
+    max-width: none;
+}
+
+/*General Config*/
+
+
+.sidenav {
+
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 90px;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
